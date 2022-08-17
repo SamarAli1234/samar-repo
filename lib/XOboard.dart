@@ -18,7 +18,7 @@ class _XoBoardState extends State<XoBoard> {
     GameBoardArguments args=ModalRoute.of(context)!.settings.arguments as GameBoardArguments;
     return Scaffold(
       appBar: AppBar(
-        title: Text('X O board'),
+        title: Text('X O board',style: TextStyle(color: Colors.pink,fontWeight:FontWeight.bold,fontSize:20),),
       ),
       body: Column(
         children: [
